@@ -1,6 +1,6 @@
 # US population growth visualization app 
 
-An American Population Growth app made with ReactJS 
+An American Population Growth app made with ReactJS and React-Leaflet
 
 ## Installation
 To setup the project, install the dependencies

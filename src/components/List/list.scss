@@ -1,0 +1,31 @@
+.list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 500px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  .list__card {
+    background-color: #ededed;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.05);
+    display: flex;
+    width: 215px;
+    height: 100px;
+    justify-content: center;
+    .card__name {
+      align-self: center;
+    }
+    .card__stats {
+      .card__population {
+
+      }
+      .card__growth {
+  
+      }
+    }
+  }
+}
