@@ -8,6 +8,7 @@ const Form = ({ value, handleChange }) => (
     <input
       type="text"
       className="header__input"
+      placeholder="Enter a city name"
       value={value}
       onChange={(e) => {
         handleChange(e.target.value);
