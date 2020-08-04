@@ -7,6 +7,9 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  .fas {
+    margin-right: .4rem;
+  }
   .list__card {
     background-color: #ededed;
     margin: 2rem;
@@ -14,11 +17,13 @@
     box-shadow: 0 0 8px 0 rgba(0,0,0,.05);
     display: flex;
     width: 215px;
-    height: 100px;
-    justify-content: center;
+    height: 135px;
+    justify-content: space-between;
     cursor: pointer;
     transition: .3s;
-    
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 9px 20px;
+    border-radius: 15px;
+
     &.active {
       background-color: #d4cfcf;
       transition: .3s;
@@ -26,13 +31,21 @@
     &:hover {
       background-color: #d4cfcf;
       transition: .3s;
+      transform: translateY(-10px);
+      transition-timing-function: ease-out;
     }
     .card__name {
       align-self: center;
+      &__title {
+        font-size: 1.5em;
+      }
     }
     .card__stats {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       .card__population {
-
+        margin-bottom: 1rem;
       }
       .card__growth {
   
